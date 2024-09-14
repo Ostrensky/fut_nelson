@@ -259,6 +259,8 @@ def update_match_details(selected_match):
     ])
 
     return html.Div([match_title, match_layout])
+server = app.server
+
 
 # Executar o aplicativo (Run the app)
 if __name__ == "__main__":
