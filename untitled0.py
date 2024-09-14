@@ -261,5 +261,5 @@ def update_match_details(selected_match):
     return html.Div([match_title, match_layout])
 
 # Executar o aplicativo (Run the app)
-if __name__ == '__main__':
-    app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(debug=False)
